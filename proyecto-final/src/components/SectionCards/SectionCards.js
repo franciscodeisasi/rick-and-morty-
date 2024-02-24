@@ -75,7 +75,7 @@ export default function SectionCards(){
     },[]);
     //a penas se cargue por primera vez el componente "SectionCards",ejecute la funcion traerPersonajes
     return(
-        <section className="fuenteBlanca">
+        <section className="fuenteBlanca row">
 
 
             <Filters filterCharacter={filterCharacter}/>

@@ -13,11 +13,11 @@ export default function Card({infoPersonaje}) {
     }
 
     return(
-       <div className="rounded bg-primary card p-2 d-flex flex-row gap-3">
-        <div>
+       <div className="card m-2 p-2 d-flex flex-row justify-content-between align-items-center">
+        <div className='d-flex flex-column justify-content-between align-items-center'>
             <img src={infoPersonaje.image}/>
-            <h3>{infoPersonaje.name}</h3>
-            <button className="btn btn-success w-50 p-2" onClick={showMore}>Know More...</button>
+            <h3 className='size-name text-center name-card'>{infoPersonaje.name}</h3>
+            <button className="btn btn-success w-50 p-2 boton" onClick={showMore}>Know More...</button>
         </div>
 
         {

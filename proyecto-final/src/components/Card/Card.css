@@ -1,3 +1,58 @@
+
 .card{
-    width: fit-content;
+    width: fit-content !important;
+    background-color: #223142!important;
+    color:whitesmoke;
+}
+.card>img{
+    width: 100%;
+
+}
+.boton{
+    background-color: #6ECCAF !important;
+    align-self: flex-end;
+    color: #223142;
+}
+.name-card{
+    color:#6ECCAF ;
+}
+.size-name{
+    width: 300px;
+
+}
+.list-group{
+    width: 350px!important;
+}
+.list-group-item{
+    /* background-color: transparent !important; */
+    background-color: initial!important;
+    color: whitesmoke !important;
+    font-size: 1.2rem;
+    border: #223142;
+    
+}
+.list-group-item:hover{
+    background-color: #6ECCAF !important;
+    color: #344D67!important;
+    cursor: pointer;
+}
+
+@media(max-width:800px){
+    .more-info-section{
+        padding: 1rem!important;
+    }
+}
+@media(max-width:500px){
+    .card{
+        flex-direction: column!important;
+    }
+    .btn-x-md{
+        visibility: hidden;
+    }
+    .btn-x-sm{
+        display: block!important;
+    }
+    .list-group-item{
+        width: 100%;
+    }
 }

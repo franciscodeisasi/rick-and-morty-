@@ -1,4 +1,8 @@
 .active{
     color: #344d67;
     background-color: #6eccaf;
+    
+}
+ul {
+    list-style-type: none;
 }

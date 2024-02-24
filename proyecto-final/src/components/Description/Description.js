@@ -1,16 +1,19 @@
+import"./Description.css"
+
+
 export default function Description({status,especie,genero,origen,setHide}) {
 
     const ocultar=()=>{
         setHide(true)
     }
     return(
-        <div>
-        <button className="btn btn-success" onClick={ocultar}>X</button>
+        <div className=" d-flex flex-column aling-items-center p-5" >
+        <button className="btn btn-success x " onClick={ocultar}>X</button>
             <ul className="list-group">
-                <li className="list-group-item fw-bold">Character Status: {status}</li>
-                <li className="list-group-item fw-bold"><span className="fw-normal">Species</span>{especie}</li>
-                <li className="list-group-item fw-bold"><span className="fw-normal">Origin</span>{origen}</li>
-                <li className="list-group-item fw-bold "><span className="fw-normal">Gender</span>{genero}</li>
+                <li className="list-group-item fw-bold p-3 d-flex flex-column">Character Status: {status}</li>
+                <li className="list-group-item fw-bold p-3 d-flex flex-column"><span className="fw-normal">Species</span>{especie}</li>
+                <li className="list-group-item fw-bold p-3 d-flex flex-column"><span className="fw-normal">Origin</span>{origen}</li>
+                <li className="list-group-item fw-bold p-3 d-flex flex-column "><span className="fw-normal">Gender</span>{genero}</li>
         </ul>        
         </div>
 

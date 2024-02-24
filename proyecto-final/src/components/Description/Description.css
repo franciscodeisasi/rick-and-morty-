@@ -1,0 +1,9 @@
+.x{
+    background-color:#6ECCAF ;
+    color: #223142;
+    display: flex;
+    align-self: flex-end;
+}
+ul {
+    list-style-type: none;
+}
