@@ -15,8 +15,8 @@ export default function Home(){
                 </p>
                 <p className="text-center p-3 parrafo">Lets go!</p>
                 <div className="justify-content-center d-flex botones"> 
-                <BotonInicio nombreBoton='Characters'/>
-                <BotonInicio nombreBoton="Contact"/>        
+                <BotonInicio nombreBoton='Characters' pasaje="/characters "/>
+                <BotonInicio nombreBoton="Contact" pasaje="/contact "/>        
                 </div>
             </div>
 

@@ -1,8 +1,21 @@
-.active{
+.text-decoration-none{
     color: #344d67;
-    background-color: #6eccaf;
-    
-}
-ul {
-    list-style-type: none;
-}
+   }
+   
+   .active{
+       background-color: #6eccaf;
+       border-radius: 5px;
+       padding: 10px;
+   }
+   
+   .Arriba{
+   background-color: #344d67 !important;
+   padding: 65px;
+   
+   }
+   
+   .titulo{
+   color: #6eccaf!important ;
+   
+   
+   }
